@@ -1,0 +1,34 @@
+{% extends 'SpxMainBundle:Default:links.html.twig' %}
+
+{% block title %}Interdiction des feux de bois{% endblock %}
+
+{% block header %}Les feux de bois en cheminées interdits en ville{% endblock %}
+
+{% block menu %}
+<li><button class="btn btn-danger nav-btn" style="width:100%">Télécharger :</button></li>
+<li id="navbar-beton"><a href="{{ asset('img/news/arrete interdiction feu de bois.pdf') }}" target="_blank">Arrêté Préfectoral</a></li>
+<li id="navbar-inox-standard"><a href="{{ path('spx_main_habillages', {'type' : 'inox-standard'}) }}">Inox standard</a></li>
+<li id="navbar-inox-sur-mesure"><a href="{{ path('spx_main_habillages', {'type' : 'inox-sur-mesure'}) }}">Inox sur mesure</a></li>
+{% endblock %}
+{% block modele %}
+<h2>LES FEUX DE BOIS INTERDITS EN VILLE ET AGGLOMERATION ?<h2/>
+<h5>            
+A partir du 1er janvier 2015, les feux de cheminée dans les foyers ouverts seront interdits en Ile de France. En effet, la législation évolue et va de plus en plus étendre la limitation de cette pratique.<h5/>
+<h5>La raison en est que les feux de bois génèrent une importante pollution par les particules fines (une demi-journée au coin du feu émet autant de particules fines qu'une voiture diesel qui roulerait pendant 3.500 kms!) et la France commence à suivre des mesures déjà adoptées notamment aux Etats-Unis (par exemple en Californie).<h5/> 
+<h5>L’arrêté inter-préfectoral du 26 mars 2013 mentionne deux cas:
+<ul>
+<li class="h5">dans Paris intra-muros, la combustion de bois sera totalement interdite (aussi bien pour les poêles que pour les cheminées) sauf par dérogation pour des installations très performantes ou dans l'artisanat.</li>
+<li class="h5">en Île-de-France si vous avez une cheminée traditionnelle, c'est-à-dire à foyer ouvert, vous ne pourrez plus faire de feu dans les 430 communes énumérées par décret. Vous pourrez continuer de faire du feu si vous avez une chaudière à bois, un poêle ou un foyer fermé type insert.</li>
+</ul></h5>
+<h4>Alors que faire de votre cheminée ? <span class="glyphicon glyphicon-arrow-right"></span> Conservez la magie et la présence du feu avec un brûleur sécurisé SPARXS posé dans <a href="{{ path('spx_main_habillages', {'type' : 'inox-sur-mesure'}) }}"><em>un habillage spécialement destiné aux cheminées existantes</em></a></h4>
+<h5>Placer un bruleur électronique à éthanol SPARXS dans une ancienne cheminée procure de nombreux avantages:
+<ul >
+<li class="h5">un très beau design contemporain en parfaite harmonie avec l'ancien</li>
+<li class="h5">plus de corvée de bois et de ramonage</li>
+<li class="h5">plus de suie: la combustion de l’éthanol ne dégage que de la vapeur d’eau et du CO2 comme la respiration d'un être humain</li>
+<li class="h5">en obturant facilement votre conduit avec de la laine de roche, vous chaufferez votre pièce comme avec un très puissant radiateur électrique(2,5 à 4,5 kw). Toute l'énergie de la combustion est conservée dans la pièce alors qu'un feu de bois traditionnel ne conserve que 15-20% de cette énergie.</li>
+</ul>
+<h5>Vous avez également la possibilité d'insérer le brûleur entre 2 chenets pour conserver un coté plus rustique.</h5>
+<h5>Rappelons que les produits SPARXS, 100% made in France, sont leaders du marché, cocorico; ils ont non seulement été parmi les tout premiers à satisfaire à la norme de sécurité D35-386 dont les principales obligations sont: l’impossibilité de rallumage à chaud , l’impossibilité de remplissage ou d’accès au combustible en fonctionnement  et l’arrêt automatique en cas de taux de CO2 dépassant 0,8 % dans la pièce, mais de plus ils possèdent un réservoir amovible pour encore plus de confort d'utilisation et de sécurité (le remplissage pouvant avoir lieu au dessus d'un évier et non accropui devant la cheminée du salon). 
+</h5>
+{% endblock modele %}
